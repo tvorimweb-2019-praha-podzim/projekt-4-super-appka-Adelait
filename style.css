@@ -31,3 +31,129 @@ body {
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+.obal{
+    display: flex;
+    flex-direction: column;
+}
+
+.hlavicka{
+    display: flex;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    list-style: none;
+    color: #48418e;
+    font-size: 16px;
+}
+
+li{
+    margin: 0 30px 0 30px;
+}
+
+.vybrana{
+    text-transform: uppercase;
+    color:  #25133d;
+    font-weight: bold;
+    margin-left: 0;
+}
+
+.vizual{
+    display: flex;
+    flex-direction: row-reverse;
+    background-image: url(images/pozadi.jpg);
+    background-size: 100%;
+    margin: 0;
+}
+
+.telefon{
+    margin-right: 0px;
+    margin-left: 0;
+    margin-bottom: -6px;
+    margin-top: 60px;
+}
+
+.text{
+    display: flex;
+    flex: 100%;
+    align-content: flex-start;
+    flex-direction: column;
+    color: white;
+    margin: 40px 0 0 30px;
+}
+
+h1{
+    font-size: 90px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    margin:0;
+}
+
+h2{
+    font-weight: lighter;
+    font-size: 34px; 
+    margin-top: 20px;
+}
+
+.tlacitko{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.stahnout,
+.informace{
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    border: 1px solid white;
+    box-shadow: -1px 1px 4px 0 #25133d;
+    margin-right: 30px;
+    margin-bottom: 60px;
+}
+
+.stahnout{
+    background-color: #48418e;
+}
+
+.obsah{
+    display: flex;
+    margin: 40px 15px 40px 15px;
+}
+
+.levy
+.prostredni
+.pravy{
+    flex: 1 1 calc(100% / 3);
+    margin: 0;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 20px;
+    color:  #48418e;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-size: 16px;
+    padding: 0 15px 0 15px;
+}
+
+.ikona{
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+.paticka{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin: 0;
+    background-color: #48418e;
+    color: white;
+}
